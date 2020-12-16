@@ -16,6 +16,7 @@ public class Day3{
 	@BeforeClass
 	public void beforeclass()
 	{
+		System.out.println("im in Day3");
 		System.out.println("before executing any method in the class");
 	}
 	@Parameters({"URL","APIKey"})
