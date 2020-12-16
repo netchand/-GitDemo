@@ -8,6 +8,7 @@ public class Day2 {
 	public void ploan()
 	{
 		System.out.println("Have a good");
+		System.out.println("Hi");
 	}
 	
 	@BeforeTest
