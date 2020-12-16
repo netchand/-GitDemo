@@ -6,6 +6,7 @@ public class Day4 {
 	@Test
 	public void WebloginHomeLoan()
 	{
+		System.out.println("Hi");
 		System.out.println("webLoginCar");
 	}
 	@Test(groups= {"Smoke"})
