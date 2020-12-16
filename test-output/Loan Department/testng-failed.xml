@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <parameter name="APIKey" value="123456"/>
+  <parameter name="URL" value="qaclickacademy.com"/>
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Personal loan(failed)">
+    <classes>
+      <class name="test.dayone1">
+        <methods>
+          <include name="Demo"/>
+          <include name="BFsuite"/>
+          <include name="lastexecution"/>
+        </methods>
+      </class> <!-- test.dayone1 -->
+    </classes>
+  </test> <!-- Personal loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
